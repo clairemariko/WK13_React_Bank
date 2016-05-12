@@ -12,7 +12,7 @@ var BankBox= React.createClass({
     return{account: sampleAccounts}
   },
 
-
+//we dont need a component did mount in this case it only runs once 
 
 //this is like window.onload so we need to  new a up a bank. 
   render: function(){
